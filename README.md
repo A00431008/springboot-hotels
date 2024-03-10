@@ -9,7 +9,7 @@ This assignment provides REST api's to
  ## GET method: gets the list of hotels (as list of JSON objects)
  Please use the following URL to get the list of hotels.
  URL: http://localhost:8080/getHotels
- sample response:
+ Sample response:
  [
     {
         "id": 1,
@@ -23,10 +23,12 @@ This assignment provides REST api's to
 Screenshot of response for GET api:
 ![alt text](GETMethodScreenshot.png)
 
-## POST Method
-please use the following URL to add the hotel to the database. Please include a body in the given format to successfully post the hotel to the database.
+## POST Method: adds hotel to the database
+Please use the following URL to add the hotel to the database. 
+Please include a body in the given format to successfully post the hotel to the database.
 URL: http://localhost:8080/addHotel
-Sample Body: {
+Sample Body: 
+{
     "name": "Test Hotel 9",
     "city": "Toronto",
     "rating": 5.0,
