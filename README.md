@@ -7,17 +7,17 @@ This assignment provides REST api's to
  - Add Hotel to the database - api consumes details as a JSON Object (Details below)
 
  ## GET method: gets the list of hotels (as list of JSON objects)
- Please use the following URL to get the list of hotels.
- URL: http://localhost:8080/getHotels
- Sample response:
- [
-    {
-        "id": 1,
-        "name": "Test Hotel 1",
-        "city": "Halifax",
-        "rating": 4.5,
-        "price": 100
-    }
+ Please use the following URL to get the list of hotels.  
+ URL: http://localhost:8080/getHotels  
+ Sample response:  
+ [  
+    {  
+        "id": 1,  
+        "name": "Test Hotel 1",  
+        "city": "Halifax",  
+        "rating": 4.5,  
+        "price": 100  
+    }  
 ]
 
 Screenshot of response for GET api:
